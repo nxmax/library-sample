@@ -1,0 +1,7 @@
+
+add_library(appstatic STATIC src.cpp)
+
+target_link_libraries(
+	appstatic 
+	libstatic
+)

@@ -1,0 +1,3 @@
+LIBRARY appdll
+EXPORTS
+  appdll_function

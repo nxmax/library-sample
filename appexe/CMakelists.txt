@@ -1,0 +1,8 @@
+
+add_executable(appexe src.cpp)
+
+target_link_libraries(
+	appexe 
+	appstatic
+	appdll
+)

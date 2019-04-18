@@ -1,0 +1,7 @@
+add_library(appdll SHARED src.cpp appdll.def)
+#add_library(appdll STATIC src.cpp)
+
+target_link_libraries(
+	appdll 
+	libshare
+)
